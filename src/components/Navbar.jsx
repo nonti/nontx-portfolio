@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import { cn } from "../lib/utils"
 import { Menu, X } from "lucide-react";
+import { ThemeToggle } from '@/components/ThemeToggle'
 
 
 const navLinks = [
@@ -33,11 +34,13 @@ export const Navbar = () => {
       </a>
 
       {/* desktop nav */}
-      <div className='hidden md:flex space-x-8'>
+      <div className='hidden md:flex items-end justify-center space-x-8'>
         { navLinks.map((link, idx) => (
           <a key={idx} href={link.href} className='text-foreground transition-colors duration-300'>{link.name}</a>
         ))}
+         <ThemeToggle />
       </div>
+
 
         {/* mobile */}
         <button 
