@@ -1,6 +1,7 @@
-import { Briefcase, Code, User } from "lucide-react"
-
+import { Briefcase, Code, Download, User } from "lucide-react"
+import { cvPath } from "@/data";
 export const AboutSection = () => {
+  
 
   return <section id="about" className="py-24 px-4 relative">
     <div className="container mx-auto max-w-5xl">
@@ -17,7 +18,7 @@ export const AboutSection = () => {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 t-4">
             <a href="#contact" className="cosy-button">Get in touch</a>
-            <a href="#" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-all duration-300">Download CV</a>
+            <a href={cvPath} download='Nontombi-CV.pdf' className="px-6 py-2 rounded-full flex gap-2 border border-primary text-primary hover:bg-primary/10 transition-all duration-300">Download CV<Download size={20}/></a>
           </div>
         </div>
         <div className="grid grid-cols-1 gap-6">
