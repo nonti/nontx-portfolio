@@ -1,4 +1,4 @@
-import { Instagram, Linkedin, Mail, MapPin, Phone, Send, Twitter } from 'lucide-react'
+import {  Linkedin, Mail, MapPin, Phone, Send, Twitter , Github} from 'lucide-react'
 import { cn } from '@/lib/utils.js';
 import { useToast } from '../hooks/use-toast';
 import { useState } from 'react';
@@ -19,7 +19,7 @@ export const ContactSection = () => {
     }, 1500);
   };
   return (
-    <section id='#contact' className='py-24 px-4 relative bg-secondary'>
+    <section id='contact' className='py-24 px-4 relative bg-secondary'>
       <div className='container mx-auto max-w-5xl'>
         <h2>
         Get in <span className='text-primary'>Touch</span>
@@ -70,7 +70,7 @@ export const ContactSection = () => {
             </div>
           </div>
           <div className='pt-8'>
-            <h4 className='font-medium mb-4'>Coneect with me</h4>
+            <h4 className='font-medium mb-4'>Connect with me</h4>
             <div className='flex space-x-4 justify-center'>
               <a href=''>
                 <Linkedin/>
@@ -79,7 +79,7 @@ export const ContactSection = () => {
                 <Twitter/>
               </a>
               <a href=''>
-                <Instagram/>
+                <Github/>
               </a>
             </div>
           </div>

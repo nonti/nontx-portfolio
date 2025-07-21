@@ -6,7 +6,8 @@ export const navLinks = [
   { name: 'About', href: '#about',},
   { name: 'Skills', href: '#skills',},
   { name: 'Projects', href: '#project',},
-  { name: 'Contact', href: '#contact',}
+  { name: 'Contact', href: '#contact',},
+  { name: 'Certificates', href: '#certificates',},
 ]
 
 export const projects = [
@@ -35,7 +36,7 @@ export const projects = [
     title: 'Airbnb Booking',
     descritpion: 'Landing page app using MongoDB, Express, HTML/CSS, React and NodeJS',
     image: '/projects/project8.png',
-    tags:['HTML','CSS','React'],
+    tags:['HTML','CSS','React','MongoDB'],
     githubUrl:'',
     demoUrl: '',
     videoUrl:''
@@ -106,7 +107,7 @@ export const projects = [
 export const skills = [
   { name: 'HTML/CSS', level: 95, category: 'frontend' },
   { name: 'JavaScript', level: 90, category: 'frontend' },
-  { name: 'React', level: 90, category: 'frontend' },
+  { name: 'React', level: 70, category: 'frontend' },
   { name: 'TypeScript', level: 25, category: 'frontend' },
   { name: 'Tailwind CSS', level: 60, category: 'frontend' },
   { name: 'Bootstrap', level: 50, category: 'frontend'},
@@ -122,7 +123,7 @@ export const skills = [
 
   // Tools
   { name: 'Git/GitHub', level: 90, category: 'tools' },
-  { name: 'Figma', level: 85, category: 'tools' },
+  { name: 'Figma', level: 45, category: 'tools' },
   { name: 'VS Code', level: 95, category: 'tools' },
   { name: 'Eclipse', level: 80, category:'tools'},
 ];
@@ -130,3 +131,14 @@ export const skills = [
 
 export const cvPath = '/cv/Nontombi-CV.pdf';
 
+export const certificates = [
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+]

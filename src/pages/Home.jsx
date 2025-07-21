@@ -5,6 +5,7 @@ import { StarBackground } from '@/components/StarBackground'
 import { SkillsSection } from '@/components/SkillsSections'
 import { ProjectSection } from '@/components/ProjectSection'
 import { ContactSection } from '@/components/ContactSection'
+import Certificates from '../components/Certificates'
 
 export const Home = () => {
   return (
@@ -23,6 +24,7 @@ export const Home = () => {
           <SkillsSection/>
           <ProjectSection/>
           <ContactSection/>
+          <Certificates/>
         </main>
       {/**Footer */}
     </div>
