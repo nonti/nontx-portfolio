@@ -1,5 +1,10 @@
 import projectVideo2 from '@/assets/videos/project2.mp4';
-
+import bpm from '@/assets/certs/BPM.png';
+import mq from '@/assets/certs/mq.png';
+import mw from '@/assets/certs/mw.png';
+import wle1 from '@/assets/certs/wle2.png';
+import wle2 from '@/assets/certs/wle7.1.png';
+import scjp from '@/assets/certs/scjp.png';
 
 export const navLinks = [
   { name: 'Home', href: '#hero',},
@@ -132,13 +137,13 @@ export const skills = [
 export const cvPath = '/cv/Nontombi-CV.pdf';
 
 export const certificates = [
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
-  { image: 'https://images.unsplash.com/photo-1680868543815-b8666dba60f7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80', title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', descritpion:'asssociate'},
+  { image: bpm, title: 'Certified BPM Application Developer', issuedBy: 'IBM', date:'October 2013 ', description:'IBM Business Process Manager'},
+  { image: wle1, title: 'Certified Associate BPM Developer', issuedBy: 'IBM', date:'March 2012 ', description:'Websphere Lombardi Edition'},
+  { image: wle2, title: 'Certified BPM Developer', issuedBy: 'oracle', date:'June 2012 ', description:'Websphere Lombardi Edition'},
+  { image: mq, title: 'Certified Solution Designer', issuedBy: 'IBM', date:'November 2011 ', description:'Websphere MQ'},
+  { image: mw, title: 'Certified java', issuedBy: 'Marlene Ward Training', date:'November 2011 ', description:'asssociate'},
+  { image: scjp, title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', description:'asssociate'},
+  // { image: scja, title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', description:'asssociate'},
+  // { image: educo, title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', description:'asssociate'},
+  // { image: diploma, title: 'Certified java', issuedBy: 'oracle', date:'July 2010 ', description:'asssociate'},
 ]
