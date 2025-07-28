@@ -1,4 +1,8 @@
 import projectVideo2 from '@/assets/videos/project2.mp4';
+import projectVideo1 from '@/assets/videos/tictactoe.mp4';
+import projectVideo3 from '@/assets/videos/googlekeep.mp4';
+
+
 import bpm from '@/assets/certs/BPM.png';
 import mq from '@/assets/certs/mq.png';
 import mw from '@/assets/certs/mw.png';
@@ -64,7 +68,7 @@ export const projects = [
     tags:['HTML','CSS','React'],
     githubUrl:'',
     demoUrl: '',
-    videoUrl:''
+    videoUrl:projectVideo3
   },
   {
     id:6,
@@ -74,7 +78,7 @@ export const projects = [
     tags:['HTML','CSS','React'],
     githubUrl:'',
     demoUrl: '',
-    videoUrl:''
+    videoUrl:projectVideo1
   },
   {
     id:7,

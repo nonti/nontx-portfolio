@@ -128,7 +128,7 @@ export const ProjectSection = () => {
         </div>
         {/* Pagination Controls */}
         {totalPages > 1 && renderPaginationButtons()}
-        <div className="text-center mt-12">
+        <div className="text-center mt-14">
           <a href="https://github.com/nonti" target="_blank" rel="noopener noreferrer" className="cosy-button w-fit flex items-center mx-auto gap-2">
             Check my github<ArrowUpRight size={16} />
           </a>
